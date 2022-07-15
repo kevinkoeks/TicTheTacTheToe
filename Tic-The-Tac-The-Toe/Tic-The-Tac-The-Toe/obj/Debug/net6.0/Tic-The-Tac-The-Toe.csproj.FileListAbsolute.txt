@@ -1,0 +1,15 @@
+C:\Users\kevin\Projects\CSharpDotNET\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\bin\Debug\net6.0\Tic-The-Tac-The-Toe.exe
+C:\Users\kevin\Projects\CSharpDotNET\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\bin\Debug\net6.0\Tic-The-Tac-The-Toe.deps.json
+C:\Users\kevin\Projects\CSharpDotNET\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\bin\Debug\net6.0\Tic-The-Tac-The-Toe.runtimeconfig.json
+C:\Users\kevin\Projects\CSharpDotNET\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\bin\Debug\net6.0\Tic-The-Tac-The-Toe.dll
+C:\Users\kevin\Projects\CSharpDotNET\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\bin\Debug\net6.0\Tic-The-Tac-The-Toe.pdb
+C:\Users\kevin\Projects\CSharpDotNET\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\Tic-The-Tac-The-Toe.csproj.AssemblyReference.cache
+C:\Users\kevin\Projects\CSharpDotNET\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\Tic-The-Tac-The-Toe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\Projects\CSharpDotNET\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\Tic-The-Tac-The-Toe.AssemblyInfoInputs.cache
+C:\Users\kevin\Projects\CSharpDotNET\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\Tic-The-Tac-The-Toe.AssemblyInfo.cs
+C:\Users\kevin\Projects\CSharpDotNET\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\Tic-The-Tac-The-Toe.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Projects\CSharpDotNET\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\Tic-The-Tac-The-Toe.dll
+C:\Users\kevin\Projects\CSharpDotNET\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\refint\Tic-The-Tac-The-Toe.dll
+C:\Users\kevin\Projects\CSharpDotNET\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\Tic-The-Tac-The-Toe.pdb
+C:\Users\kevin\Projects\CSharpDotNET\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\Tic-The-Tac-The-Toe.genruntimeconfig.cache
+C:\Users\kevin\Projects\CSharpDotNET\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\ref\Tic-The-Tac-The-Toe.dll
