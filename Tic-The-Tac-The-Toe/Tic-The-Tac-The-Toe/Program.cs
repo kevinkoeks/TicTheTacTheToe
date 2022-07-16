@@ -128,5 +128,74 @@ public class Board
 
 public class Row
 {
+    public int[] boardSpaces; // In the space: 0=blank, 1=X, and 2=0
 
+    public void ChooseSpace(bool isValueX)
+    {
+        string input = "";
+        int boardSpaceNum = 0;
+
+        Console.WriteLine("Type a board space number from left to right (1,2, or 3):");
+
+        input = Console.ReadLine();
+        if (int.TryParse(input, out boardSpaceNum))
+        {
+            if (boardSpaceNum < 1 || boardSpaceNum > 3)
+            {
+                Console.WriteLine("That number is invalid. Try again.:");
+                ChooseSpace(isValueX); //Recursion
+                return;
+            }
+
+            if (boardSpaces[boardSpaceNum - 1] != 0) //Checks if space on board is taken
+            {
+                Console.WriteLine("That board space is already take. Try another one.:");
+                TicTacToe.board.ChooseRowThenSpace(); //This is the reason for a static member in the TicTacToe method
+                return;
+            }
+
+            if (isValueX)
+            {
+                boardSpaces[boardSpaceNum - 1] = 1; //Player with X
+            }
+            else
+            {
+                boardSpaces[boardSpaceNum - 1] = 2; //Player with O
+            }
+        }
+        else
+        {
+            Console.WriteLine("Tht was a invalid input for board space. Try again.:");
+            ChooseSpace(isValueX); //Recursion
+            return;
+        }
+    }
+
+    public void DisplayContents()
+    {
+        string lineToShow = "";
+        for(int i = 0; i < boardSpaces.Length; i++)
+        {
+            int currentVal = boardSpaces[i];
+            switch (currentVal)
+            {
+                case 0:
+                    lineToShow += "|   |"; //Concatinating each string of the row (+=)
+                    break;
+                case 1:
+                    lineToShow += "| X |";
+                    break;
+                case 2:
+                    lineToShow += "| O |";
+                    break;
+            }
+        }
+
+        Console.WriteLine(lineToShow);
+    }
+
+    public Row() // Coonstructor for the Row method which initializes the boardSpace[]
+    {
+        boardSpaces = new int[3];
+    }
 }
