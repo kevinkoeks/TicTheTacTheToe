@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kevin\\Projects\\CSharpDotNET\\TicTheTacTheToe\\Tic-The-Tac-The-Toe\\Tic-The-Tac-The-Toe\\TicTheTacTheToe.csproj": {}
+    "C:\\Users\\kevin\\OneDrive\\Desktop\\Projects_old\\CSharpDotNET\\TicTacToe\\Tic-The-Tac-The-Toe\\Tic-The-Tac-The-Toe\\TicTheTacTheToe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kevin\\Projects\\CSharpDotNET\\TicTheTacTheToe\\Tic-The-Tac-The-Toe\\Tic-The-Tac-The-Toe\\TicTheTacTheToe.csproj": {
+    "C:\\Users\\kevin\\OneDrive\\Desktop\\Projects_old\\CSharpDotNET\\TicTacToe\\Tic-The-Tac-The-Toe\\Tic-The-Tac-The-Toe\\TicTheTacTheToe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kevin\\Projects\\CSharpDotNET\\TicTheTacTheToe\\Tic-The-Tac-The-Toe\\Tic-The-Tac-The-Toe\\TicTheTacTheToe.csproj",
+        "projectUniqueName": "C:\\Users\\kevin\\OneDrive\\Desktop\\Projects_old\\CSharpDotNET\\TicTacToe\\Tic-The-Tac-The-Toe\\Tic-The-Tac-The-Toe\\TicTheTacTheToe.csproj",
         "projectName": "TicTheTacTheToe",
-        "projectPath": "C:\\Users\\kevin\\Projects\\CSharpDotNET\\TicTheTacTheToe\\Tic-The-Tac-The-Toe\\Tic-The-Tac-The-Toe\\TicTheTacTheToe.csproj",
+        "projectPath": "C:\\Users\\kevin\\OneDrive\\Desktop\\Projects_old\\CSharpDotNET\\TicTacToe\\Tic-The-Tac-The-Toe\\Tic-The-Tac-The-Toe\\TicTheTacTheToe.csproj",
         "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kevin\\Projects\\CSharpDotNET\\TicTheTacTheToe\\Tic-The-Tac-The-Toe\\Tic-The-Tac-The-Toe\\obj\\",
+        "outputPath": "C:\\Users\\kevin\\OneDrive\\Desktop\\Projects_old\\CSharpDotNET\\TicTacToe\\Tic-The-Tac-The-Toe\\Tic-The-Tac-The-Toe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

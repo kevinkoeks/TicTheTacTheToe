@@ -36,8 +36,26 @@ public static class TicTacToe
         {
             while (true)
             {
+                board.ChooseRowThenSpace();
+                board.ShowBoard();
 
+                if (CheckForWinner())
+                {
+                    break;
+                }
+                
+                isPlayerATurn = !isPlayerATurn; // Change Turn between X and O player
+                totalNumOfTurns++;
+               
+                if (totalNumOfTurns >= 9) // 3x3 board space
+                {
+                    Console.WriteLine("No winner! Try again.");
+                    break;
+                }
             }
+            Console.WriteLine();
+            Console.WriteLine("Press any key to start the game!");
+            Console.ReadKey(true);
         }
 
         static bool CheckForWinner()
