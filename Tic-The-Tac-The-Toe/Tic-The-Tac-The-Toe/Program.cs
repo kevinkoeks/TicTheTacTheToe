@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace TicTheTacTheToe // Note: actual namespace depends on the project name.
+﻿namespace TicTheTacTheToe // Note: actual namespace depends on the project name.
 {
     internal class Program
     {
@@ -66,27 +64,155 @@ public static class TicTacToe
 
             bool HorizontalLine()
             {
-                for (int i = 0; i < 3; i++)
+                for (int i = 0; i < board.rows.Length; i++)
                 {
                     bool hasWon = true;
                     bool isValueX = false;
+                    int[] boardSpaces = board.rows[i].boardSpaces; //Copy each row
+                    int checkHorizontal = boardSpaces[0];
 
-
+                    switch (checkHorizontal)
+                    {
+                        case 0:
+                            continue; //If blank jump to next iteration of for-loop
+                        case 1:
+                            isValueX = true;
+                            break;
+                        case 2:
+                            isValueX = false;
+                            break;
+                    }
+                    for (int n = 0; n <boardSpaces.Length; n++)
+                    {
+                        if (boardSpaces[n] != checkHorizontal) //If one space is not equal with the first checkHorizontal
+                        {
+                            hasWon = false;
+                            break;
+                        }
+                    }
+                    if (hasWon)
+                    {
+                        DisplayTheWinnerNote(isValueX);
+                        return true;
+                    }
                 }
-                
+                return false;
             }
+            
             bool VerticalLine()
             {
+                bool hasWon = true;
+                bool isValueX = false;
+                int[] boardSpaces = board.rows[0].boardSpaces; //Copy the first row
 
+                for (int i = 0; i < 3; i++)
+                {
+                    hasWon = true;
+                    int checkVertical = boardSpaces[0];
+
+                    switch (checkVertical)
+                    {
+                        case 0:
+                            continue; //If blank jump to next iteration of for-loop
+                        case 1:
+                            isValueX = true;
+                            break;
+                        case 2:
+                            isValueX = false;
+                            break;
+                    }
+                    for (int n = 0; n < boardSpaces.Length; n++)
+                    {
+                        if (board.rows[n].boardSpaces[i] != checkVertical) //Check if each vertical space (column) has the same X or O value
+                        {
+                            hasWon = false;
+                            break;
+                        }
+                    }
+                    if (hasWon)
+                    {
+                        DisplayTheWinnerNote(isValueX);
+                        return true;
+                    }
+                }
+                return false;
             }
+
             bool DiagonalLine()
             {
+                //From left top to right bottm
+                bool hasWon = true;
+                bool isValueX = false;
+                int firstSpace = board.rows[0].boardSpaces[0];
 
+                switch (firstSpace)
+                {
+                    case 0:
+                        break;
+                    case 1:
+                        isValueX = true;
+                        break;
+                    case 2:
+                        isValueX = false;
+                        break;
+                }
+
+                for (int n = 0; n < 3; n++)
+                {
+                    if (board.rows[n].boardSpaces[n] != firstSpace) 
+                    {
+                        hasWon = false;
+                        break;
+                    }
+                }
+                if (hasWon)
+                {
+                    DisplayTheWinnerNote(isValueX);
+                    return true;
+                }
+
+                // Left bottom to Right top- Diagonal
+                hasWon = true;
+                int thirdSpace = board.rows[0].boardSpaces[2]; //Third space position
+
+                switch (thirdSpace)
+                {
+                    case 0:
+                        break;
+                    case 1:
+                        isValueX = true;
+                        break;
+                    case 2:
+                        isValueX = false;
+                        break;
+                }
+
+                for (int n = 0; n < 3; n++)
+                {
+                    if (board.rows[n].boardSpaces[2 - n] != thirdSpace)
+                    {
+                        hasWon = false;
+                        break;
+                    }
+                }
+                if (hasWon)
+                {
+                    DisplayTheWinnerNote(isValueX);
+                    return true;
+                }
+
+                return false;
             }
 
             void DisplayTheWinnerNote(bool isPlayerX)
             {
-                
+                string theWinnerIs = "";
+                if (isPlayerX)
+                    theWinnerIs = "X";
+                else
+                    theWinnerIs = "O";
+
+                Console.WriteLine("The Winner of the Game is: " + theWinnerIs);
             }
            
         }
@@ -121,9 +247,11 @@ public class Board
         int rowNum = 0;
 
         Console.WriteLine("Choose row 1,2, or 3 (top to bottom):");
+#pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
         input = Console.ReadLine();
+#pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
 
-        if(int.TryParse(input, out rowNum)) {
+        if (int.TryParse(input, out rowNum)) {
             if (rowNum  < 1 || rowNum > 3)
             {
                 Console.WriteLine("Input is Invalid. Please try again.:");
@@ -154,8 +282,9 @@ public class Row
         int boardSpaceNum = 0;
 
         Console.WriteLine("Type a board space number from left to right (1,2, or 3):");
-
+#pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
         input = Console.ReadLine();
+#pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
         if (int.TryParse(input, out boardSpaceNum))
         {
             if (boardSpaceNum < 1 || boardSpaceNum > 3)
