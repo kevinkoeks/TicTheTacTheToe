@@ -13,3 +13,11 @@ C:\Users\kevin\Projects\CSharpDotNET\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj
 C:\Users\kevin\Projects\CSharpDotNET\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\TicTheTacTheToe.pdb
 C:\Users\kevin\Projects\CSharpDotNET\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\TicTheTacTheToe.genruntimeconfig.cache
 C:\Users\kevin\Projects\CSharpDotNET\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\ref\TicTheTacTheToe.dll
+C:\Users\kevin\OneDrive\Desktop\Projects_old\CSharpDotNET\TicTacToe\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\TicTheTacTheToe.csproj.AssemblyReference.cache
+C:\Users\kevin\OneDrive\Desktop\Projects_old\CSharpDotNET\TicTacToe\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\TicTheTacTheToe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\OneDrive\Desktop\Projects_old\CSharpDotNET\TicTacToe\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\TicTheTacTheToe.AssemblyInfoInputs.cache
+C:\Users\kevin\OneDrive\Desktop\Projects_old\CSharpDotNET\TicTacToe\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\TicTheTacTheToe.AssemblyInfo.cs
+C:\Users\kevin\OneDrive\Desktop\Projects_old\CSharpDotNET\TicTacToe\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\TicTheTacTheToe.csproj.CoreCompileInputs.cache
+C:\Users\kevin\OneDrive\Desktop\Projects_old\CSharpDotNET\TicTacToe\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\TicTheTacTheToe.dll
+C:\Users\kevin\OneDrive\Desktop\Projects_old\CSharpDotNET\TicTacToe\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\refint\TicTheTacTheToe.dll
+C:\Users\kevin\OneDrive\Desktop\Projects_old\CSharpDotNET\TicTacToe\Tic-The-Tac-The-Toe\Tic-The-Tac-The-Toe\obj\Debug\net6.0\TicTheTacTheToe.pdb
