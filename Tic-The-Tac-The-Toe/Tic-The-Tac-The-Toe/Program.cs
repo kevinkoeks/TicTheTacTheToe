@@ -1,14 +1,4 @@
-﻿namespace TicTheTacTheToe // Note: actual namespace depends on the project name.
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
-}
-
+﻿
 public static class TicTacToe
 {//GameLogice
     public static bool isPlayerATurn = true;
@@ -282,9 +272,11 @@ public class Row
         int boardSpaceNum = 0;
 
         Console.WriteLine("Type a board space number from left to right (1,2, or 3):");
+
 #pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
         input = Console.ReadLine();
 #pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
+
         if (int.TryParse(input, out boardSpaceNum))
         {
             if (boardSpaceNum < 1 || boardSpaceNum > 3)
