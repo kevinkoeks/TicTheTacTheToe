@@ -43,7 +43,15 @@ public static class TicTacToe
             }
             Console.WriteLine();
             Console.WriteLine("Press any key to start the game!");
-            Console.ReadKey(true);
+            //Console.ReadKey(true); //Reads any key press
+        }
+
+        static void exitGame()
+        {
+            Console.WriteLine("Press Y to play another game or press N to close the game.");
+            string? inputDecision = Console.ReadLine();
+            //TODO
+
         }
 
         static bool CheckForWinner()
