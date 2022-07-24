@@ -52,6 +52,10 @@ public static class TicTacToe
             string? inputDecision = Console.ReadLine();
             //TODO
 
+            if (inputDecision == "Y" || inputDecision == "N")
+            {
+
+            }
         }
 
         static bool CheckForWinner()
